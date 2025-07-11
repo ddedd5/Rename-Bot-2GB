@@ -11,7 +11,7 @@ class Config(object):
    
     # database config
     DATABASE_NAME = os.environ.get("DATABASE_NAME","MOVIEGOLDEN")     
-    DATABASE_URL  = os.environ.get("DATABASE_URL","8065708484:AAHoS85tlh1fZoKh5QI1LVYndxWKRzVPu-I")
+    DATABASE_URL  = os.environ.get("DATABASE_URL","mongodb+srv://skim40981:OfN9hlkvdPB6puqr@cluster0.kufeyss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
