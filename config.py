@@ -16,7 +16,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2108966088').split()]
 
     # channels logs
     FORCE_SUBS   = os.environ.get("FORCE_SUBS", "-1002896769662") 
@@ -39,13 +39,13 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @OnAnimeSeries"""
+<b>Bot Is Made By :</b> @movie_golden"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/OnAnimeSeries>OnAnimeSeries</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/VoidZero_Dev>VoidZero</a>
+├<b>🖥️ Developer</b> : <ahttps://t.me/movie_Golden
+├<b>👨‍💻 Programer</b> : <a https://t.me/MOVEGOLDEN10
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
